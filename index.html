@@ -1,0 +1,106 @@
+ <!-- what is version of html - tells webpage -->
+ <!DOCTYPE html>
+ <!-- html tags say its all html code-->
+ <html lang="en" dir="ltr">
+ <!--  "head" tells the webs how to handle the page-->
+
+ <head>
+   <meta charset="utf-8">
+   <title>Levi's Site</title>
+ </head>
+
+ <!-- first CSS just to adjust image file -->
+ <style>
+img {
+  width: 200px;
+  height: 200px;
+}
+</style>
+
+ <body>
+   <!-- first table (more info below) to locate info next to image -->
+   <table cellspacing="10">
+     <tr>
+       <td>
+        <!-- image tags are self closing. however, it does need a source: url if on internet or source if in its directory// alt text helps google index -->
+        <img src="wolfntn.PNG" alt="Wolf Nation LLC">
+      </td>
+      <td>
+        <!-- This heading includes emphasis and horizontal lining after table -->
+        <h1>Levi Wolf</h1>
+        <p> <em>Founder of Wolf Nation LLC.</em> </p>
+        <p> Wolf Nation LLC is a multi-billion dollar company founded in 2022. </p>
+      </td>
+     </tr>
+   </table>
+   <hr>
+
+   <!-- this heading demonstrates an UN-ordered list and anchortab/href attribute-->
+   <h3>Fields of Operations</h3>
+   <p> Wolf Nation is primarily involved in the fashion business. However, did you know there are many other ventures we partake in?</p>
+   <ul>
+     <li><a href="https://cupmassager.com/">E-Commerce</a></li>
+     <li>Real Estate</li>
+     <li>HubCap Inc</li>
+     <li>MyWalit</li>
+  </ul>
+  <hr>
+
+  <!-- this heading demonstrates an ordered list -->
+  <h3><em>Joelle Dominique</em></h3>
+  <p>Joelle Dominique's fashion line offers the best upsides in the industry:</p>
+  <ol>
+    <li>Seasonal Catalogues</li>
+    <li>French Fashion</li>
+    <li>Fast Shipping</li>
+  </ol>
+  <hr>
+
+  <!-- implementing tables for data  // table->thead/body/footer-> -->
+  <h3>Schooling & Education</h3>
+  <table cellspacing="10">
+    <thead>
+      <!-- <th> column names -->
+      <tr>
+        <th>Year</th>
+        <th>School</th>
+      </tr>
+    </thead>
+     <!-- body->table row-> table data -->
+    <tbody>
+      <tr>
+        <td>2007-2015</td>
+        <td>ACHDS</td>
+      </tr>
+      <tr>
+        <td>2015-2019</td>
+        <td>FYHS / ICJA</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- table to show skills: combined data in one td -->
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tbody>
+     <tr>
+             <td>Java</td>
+             <td>⭐⭐⭐⭐⭐</td>
+     </tr>
+     <tr>
+             <td>Python</td>
+             <td>⭐⭐⭐⭐⭐</td>
+     </tr>
+    </tbody>
+  </table>
+
+  <!-- using link [href] to go to web page in your website -->
+  <br>
+  <hr>
+  <a href="contactme.html">Contact Me</a>
+
+
+
+ </body>
+
+ </html>
